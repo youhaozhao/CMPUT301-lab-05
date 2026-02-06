@@ -9,6 +9,16 @@
     android:padding="6dp">
 
     <Button
+        android:id="@+id/buttonDeleteCity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="272dp"
+        android:text="Delete"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
         android:id="@+id/buttonAddCity"
         android:text="Add City"
         android:textSize="20sp"
